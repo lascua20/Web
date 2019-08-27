@@ -1,0 +1,60 @@
+body{
+	background-color: #D8DDEE;  
+	font-family: Arial, Verdana , Tahoma;
+
+}
+
+section {
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+	background-image: url("/imagenes/fondobit.jpg");
+}
+
+h1{
+	color: #08088A;
+	font-family: Century, Gothic;
+	text-align: right;
+}
+
+h2{
+	color: #08088A;
+	text-transform: uppercase;
+}
+h3{
+	color: #08088A;
+	text-transform: uppercase;
+}
+p{
+	color: #444444;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.texto_destacado{
+	color: #B45F04;
+}
+ul.botonera{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.botonera li a{
+	width: 200px;
+	height: 50px;
+	background-color: #2E2EFE;
+	margin-bottom: 5px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	border: 1px #000 solid;
+	line-height: 50px;
+}
+
+ul.botonera li a:hover{
+	background-color: #A9BCF5;
+}
+ul.botonera li{
+	display: inline;
+}
