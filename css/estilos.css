@@ -26,9 +26,7 @@ body{
 	  list-style: none;
 	  margin: 0;
 	  padding: 0;
-	/*  overflow: hidden;
-	  display: inline-block;
-	  */
+	  
 }
 
 .menu > li{
@@ -41,7 +39,7 @@ body{
 	padding: 15px 20px;
 	color: #fff;
 	font-family: "Lucida Console", Monaco, monospace;
-	font-size: 19px ;
+	font-size: 17px ;
 	text-decoration: none; 
 }
 .menu > li a:hover {
@@ -69,20 +67,6 @@ body{
 .menu li:hover .submenu{
 	display: block;
 }
-/*li{
-	float: right;
-}
-
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 25px
-
-}
-*/
-
 
 #marca{
 	width: 150px;
@@ -95,19 +79,29 @@ li a {
 }
 
 .portada{
-	width: 1334px;
+	width: 1334px;  
 	height: 700px;
 	background-color: #6273AE;
 	margin-top: 10px;
 	padding: 0px;
-	overflow: hidden;
+	/*overflow: hidden;*/
+	background-attachment: fixed;
 }
 
 #fondo3{
+	margin-top: 30px;
 	width: 1334px;
-	height: 700px ;
+	height: 700px 
+	margin-bottom:0;
 }
 
+#fondo2{
+	width: 900px;
+	height: 800px;
+ 	margin: auto;
+ 	text-align-last: center;
+ 	display: block;
+}
 #contenido{
 	width: auto;
 	height: auto;
@@ -156,25 +150,20 @@ h3{
 	font-size: 20px;
 }
 
+#video , video{
+	width: 900px;
+	height: 400px;
+	margin: auto;
+}
 
-/*#contenedor{
-	width: 960px;
-	height: 1400px;
-	background-color: #ccd6e0;
-	margin-right: auto;
-	margin-left: auto;
-}*/
-/*#img_izq{
-	width: 350px;
-	height: 300px;
-	background-repeat: repeat;
-	float: left;
-} 
-#txt_der{
-	width: 600px;
-	height: 300px;
-	background-color: #3D45E6;
-	float: right; 
+#audio , audio{
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
 
-}*/
+
+
+
 
